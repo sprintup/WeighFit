@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		371D125292CDB9E1CD2F207D /* libPods-weighFit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F895CAAD12ADC3A8EBB25433 /* libPods-weighFit.a */; };
+		5621A8FA1C56BC3F00A0466A /* FoodObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5621A8F91C56BC3F00A0466A /* FoodObject.m */; };
+		562B8E011C7393110013F18E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56BFD5411BDBEBF600C5753A /* Info.plist */; };
+		565C7BC71C61244D00477F5A /* SF-UI in Resources */ = {isa = PBXBuildFile; fileRef = 565C7BC61C61244D00477F5A /* SF-UI */; };
+		56BFD5321BDBEBF600C5753A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BFD5311BDBEBF600C5753A /* main.m */; };
+		56BFD5351BDBEBF600C5753A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BFD5341BDBEBF600C5753A /* AppDelegate.m */; };
+		56BFD53B1BDBEBF600C5753A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56BFD5391BDBEBF600C5753A /* Main.storyboard */; };
+		56BFD53D1BDBEBF600C5753A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56BFD53C1BDBEBF600C5753A /* Assets.xcassets */; };
+		56BFD5401BDBEBF600C5753A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56BFD53E1BDBEBF600C5753A /* LaunchScreen.storyboard */; };
+		56C51D461C2D98D1005A5DC5 /* FoodDiaryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C51D451C2D98D1005A5DC5 /* FoodDiaryTableViewCell.m */; };
+		81CFC48D1BF006DF000047EC /* WeighFitModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CFC48C1BF006DF000047EC /* WeighFitModel.m */; };
+		F30D5D401C56573A001B1A92 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30D5D3F1C56573A001B1A92 /* HealthKit.framework */; };
+		F335542D1C4037A3007D2A54 /* PersistedDay+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = F33554261C4037A3007D2A54 /* PersistedDay+CoreDataProperties.m */; };
+		F335542E1C4037A3007D2A54 /* PersistedDay.m in Sources */ = {isa = PBXBuildFile; fileRef = F33554281C4037A3007D2A54 /* PersistedDay.m */; };
+		F335542F1C4037A3007D2A54 /* PersistedEvent+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = F335542A1C4037A3007D2A54 /* PersistedEvent+CoreDataProperties.m */; };
+		F33554301C4037A3007D2A54 /* PersistedEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = F335542C1C4037A3007D2A54 /* PersistedEvent.m */; };
+		F34FFD6F1C7621390005EECB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F34FFD6E1C7621390005EECB /* GoogleService-Info.plist */; };
+		F3554C9E1C3D723B00C9F221 /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = F3554C9D1C3D723B00C9F221 /* CoreDataStack.m */; };
+		F3554CA11C3D726B00C9F221 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3554C9F1C3D726B00C9F221 /* DataModel.xcdatamodeld */; };
+		F3554CAA1C3D8F7700C9F221 /* DayListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3554CA91C3D8F7700C9F221 /* DayListTableViewController.m */; };
+		F35F6E9D1C3EA23A0034E4A0 /* EventListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F35F6E9C1C3EA23A0034E4A0 /* EventListTableViewController.m */; };
+		F35F6EB21C3F25270034E4A0 /* EventListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F35F6EB11C3F25270034E4A0 /* EventListTableViewCell.m */; };
+		F35F6EB61C3F2BA20034E4A0 /* DayValuesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F35F6EB51C3F2BA20034E4A0 /* DayValuesTableViewCell.m */; };
+		F36A61831C3AE6E7001A738A /* EventTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F36A61821C3AE6E7001A738A /* EventTableCell.xib */; };
+		F36A61861C3AE82A001A738A /* EventTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F36A61851C3AE82A001A738A /* EventTableViewCell.m */; };
+		F3777FE61C4596F2004FF4E1 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3777FE51C4596F2004FF4E1 /* NavigationController.m */; };
+		F3C653F91C553CC300A5F113 /* HKHealthStore+HKHealthStore_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C653F81C553CC300A5F113 /* HKHealthStore+HKHealthStore_Extensions.m */; };
+		F3C653FC1C553D7A00A5F113 /* HealthKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C653FB1C553D7A00A5F113 /* HealthKit.m */; };
+		F3E543181C729D970012B7AA /* weighFitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E543171C729D970012B7AA /* weighFitTests.m */; };
+		F3F06AA11C3884EE009D06AD /* DaySetUpTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F06AA01C3884EE009D06AD /* DaySetUpTableViewController.m */; };
+		F3FF87A91C4A90C50012DEA2 /* EventInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3FF87A81C4A90C50012DEA2 /* EventInputViewController.m */; };
+		F3FF87AC1C4DA53D0012DEA2 /* NotificationsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3FF87AB1C4DA53D0012DEA2 /* NotificationsTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3E5431A1C729D970012B7AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56BFD5251BDBEBF600C5753A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56BFD52C1BDBEBF600C5753A;
+			remoteInfo = weighFit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5621A8F81C56BC3F00A0466A /* FoodObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodObject.h; sourceTree = "<group>"; };
+		5621A8F91C56BC3F00A0466A /* FoodObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodObject.m; sourceTree = "<group>"; };
+		565C7BC61C61244D00477F5A /* SF-UI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "SF-UI"; sourceTree = "<group>"; };
+		56BFD52D1BDBEBF600C5753A /* weighFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weighFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56BFD5311BDBEBF600C5753A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56BFD5331BDBEBF600C5753A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		56BFD5341BDBEBF600C5753A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		56BFD53A1BDBEBF600C5753A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56BFD53C1BDBEBF600C5753A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56BFD53F1BDBEBF600C5753A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56BFD5411BDBEBF600C5753A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56C51D441C2D98D1005A5DC5 /* FoodDiaryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDiaryTableViewCell.h; sourceTree = "<group>"; };
+		56C51D451C2D98D1005A5DC5 /* FoodDiaryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDiaryTableViewCell.m; sourceTree = "<group>"; };
+		70313AA1B8343F5FE8990FA5 /* Pods-weighFit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weighFit.release.xcconfig"; path = "Pods/Target Support Files/Pods-weighFit/Pods-weighFit.release.xcconfig"; sourceTree = "<group>"; };
+		81CFC48B1BF006DF000047EC /* WeighFitModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeighFitModel.h; sourceTree = "<group>"; };
+		81CFC48C1BF006DF000047EC /* WeighFitModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeighFitModel.m; sourceTree = "<group>"; };
+		86961B313CAD2A05DEA99C30 /* Pods-weighFit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weighFit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-weighFit/Pods-weighFit.debug.xcconfig"; sourceTree = "<group>"; };
+		F30D5D3F1C56573A001B1A92 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		F30D5D411C56573A001B1A92 /* weighFit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = weighFit.entitlements; path = ../weighFit.entitlements; sourceTree = "<group>"; };
+		F33554251C4037A3007D2A54 /* PersistedDay+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PersistedDay+CoreDataProperties.h"; sourceTree = "<group>"; };
+		F33554261C4037A3007D2A54 /* PersistedDay+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PersistedDay+CoreDataProperties.m"; sourceTree = "<group>"; };
+		F33554271C4037A3007D2A54 /* PersistedDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersistedDay.h; sourceTree = "<group>"; };
+		F33554281C4037A3007D2A54 /* PersistedDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersistedDay.m; sourceTree = "<group>"; };
+		F33554291C4037A3007D2A54 /* PersistedEvent+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PersistedEvent+CoreDataProperties.h"; sourceTree = "<group>"; };
+		F335542A1C4037A3007D2A54 /* PersistedEvent+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PersistedEvent+CoreDataProperties.m"; sourceTree = "<group>"; };
+		F335542B1C4037A3007D2A54 /* PersistedEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersistedEvent.h; sourceTree = "<group>"; };
+		F335542C1C4037A3007D2A54 /* PersistedEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersistedEvent.m; sourceTree = "<group>"; };
+		F34FFD6E1C7621390005EECB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F3554C9C1C3D723B00C9F221 /* CoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataStack.h; sourceTree = "<group>"; };
+		F3554C9D1C3D723B00C9F221 /* CoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataStack.m; sourceTree = "<group>"; };
+		F3554CA01C3D726B00C9F221 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		F3554CA81C3D8F7700C9F221 /* DayListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayListTableViewController.h; sourceTree = "<group>"; };
+		F3554CA91C3D8F7700C9F221 /* DayListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayListTableViewController.m; sourceTree = "<group>"; };
+		F35F6E9B1C3EA23A0034E4A0 /* EventListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventListTableViewController.h; path = ../EventListTableViewController.h; sourceTree = "<group>"; };
+		F35F6E9C1C3EA23A0034E4A0 /* EventListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventListTableViewController.m; path = ../EventListTableViewController.m; sourceTree = "<group>"; };
+		F35F6EB01C3F25270034E4A0 /* EventListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventListTableViewCell.h; sourceTree = "<group>"; };
+		F35F6EB11C3F25270034E4A0 /* EventListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventListTableViewCell.m; sourceTree = "<group>"; };
+		F35F6EB41C3F2BA20034E4A0 /* DayValuesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayValuesTableViewCell.h; sourceTree = "<group>"; };
+		F35F6EB51C3F2BA20034E4A0 /* DayValuesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayValuesTableViewCell.m; sourceTree = "<group>"; };
+		F36A61821C3AE6E7001A738A /* EventTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventTableCell.xib; sourceTree = "<group>"; };
+		F36A61841C3AE82A001A738A /* EventTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventTableViewCell.h; sourceTree = "<group>"; };
+		F36A61851C3AE82A001A738A /* EventTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventTableViewCell.m; sourceTree = "<group>"; };
+		F3777FE41C4596F2004FF4E1 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		F3777FE51C4596F2004FF4E1 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		F3C653F71C553CC300A5F113 /* HKHealthStore+HKHealthStore_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "HKHealthStore+HKHealthStore_Extensions.h"; path = "../HKHealthStore+HKHealthStore_Extensions.h"; sourceTree = "<group>"; };
+		F3C653F81C553CC300A5F113 /* HKHealthStore+HKHealthStore_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "HKHealthStore+HKHealthStore_Extensions.m"; path = "../HKHealthStore+HKHealthStore_Extensions.m"; sourceTree = "<group>"; };
+		F3C653FA1C553D7A00A5F113 /* HealthKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HealthKit.h; path = ../HealthKit.h; sourceTree = "<group>"; };
+		F3C653FB1C553D7A00A5F113 /* HealthKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HealthKit.m; path = ../HealthKit.m; sourceTree = "<group>"; };
+		F3E543151C729D970012B7AA /* weighFitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weighFitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E543171C729D970012B7AA /* weighFitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weighFitTests.m; sourceTree = "<group>"; };
+		F3E543191C729D970012B7AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3F06A9F1C3884EE009D06AD /* DaySetUpTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaySetUpTableViewController.h; sourceTree = "<group>"; };
+		F3F06AA01C3884EE009D06AD /* DaySetUpTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaySetUpTableViewController.m; sourceTree = "<group>"; };
+		F3FF87A71C4A90C50012DEA2 /* EventInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventInputViewController.h; sourceTree = "<group>"; };
+		F3FF87A81C4A90C50012DEA2 /* EventInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventInputViewController.m; sourceTree = "<group>"; };
+		F3FF87AA1C4DA53D0012DEA2 /* NotificationsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationsTableViewController.h; sourceTree = "<group>"; };
+		F3FF87AB1C4DA53D0012DEA2 /* NotificationsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationsTableViewController.m; sourceTree = "<group>"; };
+		F895CAAD12ADC3A8EBB25433 /* libPods-weighFit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-weighFit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56BFD52A1BDBEBF600C5753A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30D5D401C56573A001B1A92 /* HealthKit.framework in Frameworks */,
+				371D125292CDB9E1CD2F207D /* libPods-weighFit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E543121C729D970012B7AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55F1CD6905A88BD06E5CB2C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86961B313CAD2A05DEA99C30 /* Pods-weighFit.debug.xcconfig */,
+				70313AA1B8343F5FE8990FA5 /* Pods-weighFit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		56BFD5241BDBEBF600C5753A = {
+			isa = PBXGroup;
+			children = (
+				F30D5D3F1C56573A001B1A92 /* HealthKit.framework */,
+				F33554251C4037A3007D2A54 /* PersistedDay+CoreDataProperties.h */,
+				F33554261C4037A3007D2A54 /* PersistedDay+CoreDataProperties.m */,
+				F33554271C4037A3007D2A54 /* PersistedDay.h */,
+				F33554281C4037A3007D2A54 /* PersistedDay.m */,
+				F33554291C4037A3007D2A54 /* PersistedEvent+CoreDataProperties.h */,
+				F335542A1C4037A3007D2A54 /* PersistedEvent+CoreDataProperties.m */,
+				F335542B1C4037A3007D2A54 /* PersistedEvent.h */,
+				F335542C1C4037A3007D2A54 /* PersistedEvent.m */,
+				56BFD52F1BDBEBF600C5753A /* weightFit */,
+				F3E543161C729D970012B7AA /* weighFitTests */,
+				56BFD52E1BDBEBF600C5753A /* Products */,
+				6D712CF3655F472220F5AD65 /* Frameworks */,
+				55F1CD6905A88BD06E5CB2C1 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		56BFD52E1BDBEBF600C5753A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56BFD52D1BDBEBF600C5753A /* weighFit.app */,
+				F3E543151C729D970012B7AA /* weighFitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56BFD52F1BDBEBF600C5753A /* weightFit */ = {
+			isa = PBXGroup;
+			children = (
+				56BFD5331BDBEBF600C5753A /* AppDelegate.h */,
+				56BFD5341BDBEBF600C5753A /* AppDelegate.m */,
+				F3554C9F1C3D726B00C9F221 /* DataModel.xcdatamodeld */,
+				56BFD5391BDBEBF600C5753A /* Main.storyboard */,
+				F35F6E9A1C3EA1CA0034E4A0 /* primary views */,
+				F3ABBE371C514D710022A86B /* secondary views */,
+				F35F6EB31C3F25850034E4A0 /* cells */,
+				56BFD5301BDBEBF600C5753A /* supporting files */,
+				56BFD53C1BDBEBF600C5753A /* Assets.xcassets */,
+				56BFD53E1BDBEBF600C5753A /* LaunchScreen.storyboard */,
+				56BFD5411BDBEBF600C5753A /* Info.plist */,
+				F36A61841C3AE82A001A738A /* EventTableViewCell.h */,
+				F36A61851C3AE82A001A738A /* EventTableViewCell.m */,
+				F36A61821C3AE6E7001A738A /* EventTableCell.xib */,
+				56C51D441C2D98D1005A5DC5 /* FoodDiaryTableViewCell.h */,
+				56C51D451C2D98D1005A5DC5 /* FoodDiaryTableViewCell.m */,
+			);
+			path = weightFit;
+			sourceTree = "<group>";
+		};
+		56BFD5301BDBEBF600C5753A /* supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				565C7BC61C61244D00477F5A /* SF-UI */,
+				F30D5D421C56574A001B1A92 /* HealthKit */,
+				F3554C9C1C3D723B00C9F221 /* CoreDataStack.h */,
+				F3554C9D1C3D723B00C9F221 /* CoreDataStack.m */,
+				81CFC48B1BF006DF000047EC /* WeighFitModel.h */,
+				81CFC48C1BF006DF000047EC /* WeighFitModel.m */,
+				F3777FE41C4596F2004FF4E1 /* NavigationController.h */,
+				F3777FE51C4596F2004FF4E1 /* NavigationController.m */,
+				56BFD5311BDBEBF600C5753A /* main.m */,
+				F34FFD6E1C7621390005EECB /* GoogleService-Info.plist */,
+			);
+			name = "supporting files";
+			sourceTree = "<group>";
+		};
+		6D712CF3655F472220F5AD65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F895CAAD12ADC3A8EBB25433 /* libPods-weighFit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F30D5D421C56574A001B1A92 /* HealthKit */ = {
+			isa = PBXGroup;
+			children = (
+				F30D5D411C56573A001B1A92 /* weighFit.entitlements */,
+				F3C653FA1C553D7A00A5F113 /* HealthKit.h */,
+				F3C653FB1C553D7A00A5F113 /* HealthKit.m */,
+				F3C653F71C553CC300A5F113 /* HKHealthStore+HKHealthStore_Extensions.h */,
+				F3C653F81C553CC300A5F113 /* HKHealthStore+HKHealthStore_Extensions.m */,
+				5621A8F81C56BC3F00A0466A /* FoodObject.h */,
+				5621A8F91C56BC3F00A0466A /* FoodObject.m */,
+			);
+			name = HealthKit;
+			sourceTree = "<group>";
+		};
+		F35F6E9A1C3EA1CA0034E4A0 /* primary views */ = {
+			isa = PBXGroup;
+			children = (
+				F3554CA81C3D8F7700C9F221 /* DayListTableViewController.h */,
+				F3554CA91C3D8F7700C9F221 /* DayListTableViewController.m */,
+				F3F06A9F1C3884EE009D06AD /* DaySetUpTableViewController.h */,
+				F3F06AA01C3884EE009D06AD /* DaySetUpTableViewController.m */,
+				F35F6E9B1C3EA23A0034E4A0 /* EventListTableViewController.h */,
+				F35F6E9C1C3EA23A0034E4A0 /* EventListTableViewController.m */,
+				F3FF87A71C4A90C50012DEA2 /* EventInputViewController.h */,
+				F3FF87A81C4A90C50012DEA2 /* EventInputViewController.m */,
+			);
+			name = "primary views";
+			sourceTree = "<group>";
+		};
+		F35F6EB31C3F25850034E4A0 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				F35F6EB41C3F2BA20034E4A0 /* DayValuesTableViewCell.h */,
+				F35F6EB51C3F2BA20034E4A0 /* DayValuesTableViewCell.m */,
+				F35F6EB01C3F25270034E4A0 /* EventListTableViewCell.h */,
+				F35F6EB11C3F25270034E4A0 /* EventListTableViewCell.m */,
+			);
+			name = cells;
+			sourceTree = "<group>";
+		};
+		F3ABBE371C514D710022A86B /* secondary views */ = {
+			isa = PBXGroup;
+			children = (
+				F3FF87AA1C4DA53D0012DEA2 /* NotificationsTableViewController.h */,
+				F3FF87AB1C4DA53D0012DEA2 /* NotificationsTableViewController.m */,
+			);
+			name = "secondary views";
+			sourceTree = "<group>";
+		};
+		F3E543161C729D970012B7AA /* weighFitTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3E543171C729D970012B7AA /* weighFitTests.m */,
+				F3E543191C729D970012B7AA /* Info.plist */,
+			);
+			path = weighFitTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56BFD52C1BDBEBF600C5753A /* weighFit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56BFD55A1BDBEBF600C5753A /* Build configuration list for PBXNativeTarget "weighFit" */;
+			buildPhases = (
+				B33A4BA70EDC190EB47541AB /* Check Pods Manifest.lock */,
+				56BFD5291BDBEBF600C5753A /* Sources */,
+				56BFD52A1BDBEBF600C5753A /* Frameworks */,
+				56BFD52B1BDBEBF600C5753A /* Resources */,
+				AC9BCBD060039FFCDEF5D127 /* Embed Pods Frameworks */,
+				95D445943943FA8C9315C27E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = weighFit;
+			productName = weightFit;
+			productReference = 56BFD52D1BDBEBF600C5753A /* weighFit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3E543141C729D970012B7AA /* weighFitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3E5431C1C729D970012B7AA /* Build configuration list for PBXNativeTarget "weighFitTests" */;
+			buildPhases = (
+				F3E543111C729D970012B7AA /* Sources */,
+				F3E543121C729D970012B7AA /* Frameworks */,
+				F3E543131C729D970012B7AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3E5431B1C729D970012B7AA /* PBXTargetDependency */,
+			);
+			name = weighFitTests;
+			productName = weighFitTests;
+			productReference = F3E543151C729D970012B7AA /* weighFitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56BFD5251BDBEBF600C5753A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Stephen Printup";
+				TargetAttributes = {
+					56BFD52C1BDBEBF600C5753A = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = V62WE9AC6Y;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					F3E543141C729D970012B7AA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 56BFD52C1BDBEBF600C5753A;
+					};
+				};
+			};
+			buildConfigurationList = 56BFD5281BDBEBF600C5753A /* Build configuration list for PBXProject "TriFitness" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56BFD5241BDBEBF600C5753A;
+			productRefGroup = 56BFD52E1BDBEBF600C5753A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56BFD52C1BDBEBF600C5753A /* weighFit */,
+				F3E543141C729D970012B7AA /* weighFitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56BFD52B1BDBEBF600C5753A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56BFD5401BDBEBF600C5753A /* LaunchScreen.storyboard in Resources */,
+				56BFD53D1BDBEBF600C5753A /* Assets.xcassets in Resources */,
+				F36A61831C3AE6E7001A738A /* EventTableCell.xib in Resources */,
+				565C7BC71C61244D00477F5A /* SF-UI in Resources */,
+				56BFD53B1BDBEBF600C5753A /* Main.storyboard in Resources */,
+				F34FFD6F1C7621390005EECB /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E543131C729D970012B7AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562B8E011C7393110013F18E /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		95D445943943FA8C9315C27E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-weighFit/Pods-weighFit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC9BCBD060039FFCDEF5D127 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-weighFit/Pods-weighFit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B33A4BA70EDC190EB47541AB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56BFD5291BDBEBF600C5753A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35F6EB61C3F2BA20034E4A0 /* DayValuesTableViewCell.m in Sources */,
+				5621A8FA1C56BC3F00A0466A /* FoodObject.m in Sources */,
+				F335542D1C4037A3007D2A54 /* PersistedDay+CoreDataProperties.m in Sources */,
+				F335542E1C4037A3007D2A54 /* PersistedDay.m in Sources */,
+				56BFD5351BDBEBF600C5753A /* AppDelegate.m in Sources */,
+				56C51D461C2D98D1005A5DC5 /* FoodDiaryTableViewCell.m in Sources */,
+				F3C653FC1C553D7A00A5F113 /* HealthKit.m in Sources */,
+				F3777FE61C4596F2004FF4E1 /* NavigationController.m in Sources */,
+				F3C653F91C553CC300A5F113 /* HKHealthStore+HKHealthStore_Extensions.m in Sources */,
+				F36A61861C3AE82A001A738A /* EventTableViewCell.m in Sources */,
+				F33554301C4037A3007D2A54 /* PersistedEvent.m in Sources */,
+				F35F6EB21C3F25270034E4A0 /* EventListTableViewCell.m in Sources */,
+				F3554CAA1C3D8F7700C9F221 /* DayListTableViewController.m in Sources */,
+				F3FF87A91C4A90C50012DEA2 /* EventInputViewController.m in Sources */,
+				F3FF87AC1C4DA53D0012DEA2 /* NotificationsTableViewController.m in Sources */,
+				F335542F1C4037A3007D2A54 /* PersistedEvent+CoreDataProperties.m in Sources */,
+				F3F06AA11C3884EE009D06AD /* DaySetUpTableViewController.m in Sources */,
+				81CFC48D1BF006DF000047EC /* WeighFitModel.m in Sources */,
+				F35F6E9D1C3EA23A0034E4A0 /* EventListTableViewController.m in Sources */,
+				F3554CA11C3D726B00C9F221 /* DataModel.xcdatamodeld in Sources */,
+				56BFD5321BDBEBF600C5753A /* main.m in Sources */,
+				F3554C9E1C3D723B00C9F221 /* CoreDataStack.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E543111C729D970012B7AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E543181C729D970012B7AA /* weighFitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3E5431B1C729D970012B7AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56BFD52C1BDBEBF600C5753A /* weighFit */;
+			targetProxy = F3E5431A1C729D970012B7AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56BFD5391BDBEBF600C5753A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56BFD53A1BDBEBF600C5753A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56BFD53E1BDBEBF600C5753A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56BFD53F1BDBEBF600C5753A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56BFD5581BDBEBF600C5753A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		56BFD5591BDBEBF600C5753A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56BFD55B1BDBEBF600C5753A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86961B313CAD2A05DEA99C30 /* Pods-weighFit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = weighFit.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = weightFit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stephenprintup.trifitness;
+				PRODUCT_NAME = weighFit;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		56BFD55C1BDBEBF600C5753A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70313AA1B8343F5FE8990FA5 /* Pods-weighFit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = weighFit.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				INFOPLIST_FILE = weightFit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stephenprintup.trifitness;
+				PRODUCT_NAME = weighFit;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		F3E5431D1C729D970012B7AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = weighFitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stephenprintup.weighFitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/weighFit.app/weighFit";
+			};
+			name = Debug;
+		};
+		F3E5431E1C729D970012B7AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = weighFitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stephenprintup.weighFitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/weighFit.app/weighFit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56BFD5281BDBEBF600C5753A /* Build configuration list for PBXProject "TriFitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56BFD5581BDBEBF600C5753A /* Debug */,
+				56BFD5591BDBEBF600C5753A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56BFD55A1BDBEBF600C5753A /* Build configuration list for PBXNativeTarget "weighFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56BFD55B1BDBEBF600C5753A /* Debug */,
+				56BFD55C1BDBEBF600C5753A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3E5431C1C729D970012B7AA /* Build configuration list for PBXNativeTarget "weighFitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3E5431D1C729D970012B7AA /* Debug */,
+				F3E5431E1C729D970012B7AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F3554C9F1C3D726B00C9F221 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F3554CA01C3D726B00C9F221 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = F3554CA01C3D726B00C9F221 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 56BFD5251BDBEBF600C5753A /* Project object */;
+}
