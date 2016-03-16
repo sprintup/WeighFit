@@ -8,6 +8,7 @@ A calorie balancing app that tracks how much one should eat down to the minute.
 Set reminders by selecting the folder in the top left of the Day List screen, selecting the number of calories you'd like to be reminded at and pressing 'Save'.
 * Search through a menu of recently eaten meals.
 On the EventInput screen, start typing the description of the meal you're looking for (min 3 letters) and press return for results.
+* [Harris Benedict Equation](http://www.bmi-calculator.net/bmi-formula.php)
 
 ##Contributing##
 Obviously, this is open source app. If you'd like to contribute, please feel free to submit a pull request. This app is meant to be a means to practice programming, so if you have recommendations for improvements or upgrades, I'd be happy to hear. 
