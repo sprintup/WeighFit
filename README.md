@@ -1,6 +1,7 @@
-# WeighFit
+# WeighFit 
+## Now on the [App Store](https://itunes.apple.com/us/app/weigh-fit/id1078998317?ls=1&mt=8)
 
-A calorie balancing app that tracks how much one should eat down to the minute. Now on the [App Store](https://itunes.apple.com/us/app/weigh-fit/id1078998317?ls=1&mt=8)
+A calorie balancing app that tracks how much one should eat down to the minute. 
 
 ##Features##
 * Reminders for when to eat to stay on pace with calorie needs. 
@@ -16,7 +17,7 @@ Bugs can be logged in issues and can be fixed by the community.
 This is a free project. 
 
 ##Disclaimer##
- WeighFit DOES NOT offer medical advice. Users should contact licensed medical or nutrition professionals and not rely on information found in the app. WeighFit is a tool to be used alongside nutritionist or medical professional guidelines. Medical professionals should be consulted prior to implementing nutrition plans that use WeighFit. No party associated in any way with WeighFit assumes liability for any loss or damage resulting from the use or misuse of WeighFit. 
+ WeighFit DOES NOT offer medical advice. Users should contact licensed medical or nutrition professionals and not rely on information found in the app. Use WeighFit at your own risk. WeighFit is a tool to be used alongside nutritionist or medical professional guidelines. Medical professionals should be consulted prior to implementing nutrition plans that use WeighFit. No party associated in any way with WeighFit assumes liability for any loss or damage resulting from the use or misuse of WeighFit. 
 
  WeighFit has no warranty of any kind, expressed or implied. 
 
