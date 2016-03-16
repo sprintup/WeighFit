@@ -466,7 +466,9 @@
     
     HKQuantitySample *heightSample = [HKQuantitySample quantitySampleWithType:heightType quantity:heightQuantity startDate:now endDate:now];
     
-    if (healthKitInstance.authorization == true) {
+    HKQuantityType *heightObjectType = [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierHeight];
+    
+    if ([self.healthStore authorizationStatusForType:heightObjectType] == 2) {
         [self.healthStore saveObject:heightSample withCompletion:^(BOOL success, NSError *error) {
             if (!success) {
                 NSLog(@"An error occured saving the height sample %@. In your app, try to handle this gracefully. The error was: %@.", heightSample, error);
@@ -491,7 +493,9 @@
     
     HKQuantitySample *weightSample = [HKQuantitySample quantitySampleWithType:weightType quantity:weightQuantity startDate:now endDate:now];
     
-    if (healthKitInstance.authorization == true) {
+    HKQuantityType *weightObjectType = [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierBodyMass];
+    
+    if ([self.healthStore authorizationStatusForType:weightObjectType] == 2) {
         [self.healthStore saveObject:weightSample withCompletion:^(BOOL success, NSError *error) {
             if (!success) {
                 NSLog(@"An error occured saving the weight sample %@. In your app, try to handle this gracefully. The error was: %@.", weightSample, error);

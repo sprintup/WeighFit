@@ -1,6 +1,6 @@
 # WeighFit
 
-A calorie balancing app that tracks how much one should eat down to the minute.
+A calorie balancing app that tracks how much one should eat down to the minute. Now on the [App Store](https://itunes.apple.com/us/app/weigh-fit/id1078998317?ls=1&mt=8)
 
 ##Features##
 * Reminders for when to eat to stay on pace with calorie needs. 

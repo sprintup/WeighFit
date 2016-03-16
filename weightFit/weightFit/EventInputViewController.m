@@ -428,8 +428,9 @@
 -(void)addFoodItem:(FoodObject *)foodItem {
     // Create a new food correlation for the given food item.
     HKCorrelation *foodCorrelationForFoodItem = [self foodCorrelationForFoodItemToAdd:foodItem];
+    HKQuantityType *dietaryCalorieEnergyType = [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryEnergyConsumed];
     
-    if (healthKitInstance.authorization == true) {
+    if ([self.healthStore authorizationStatusForType:dietaryCalorieEnergyType] == 2) {
         [self.healthStore saveObject:foodCorrelationForFoodItem withCompletion:^(BOOL success, NSError *error) {
             dispatch_async(dispatch_get_main_queue(), ^{
                 if (success) {
