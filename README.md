@@ -1,5 +1,5 @@
 # WeighFit 
-## Now on the [App Store](https://itunes.apple.com/us/app/weigh-fit/id1078998317?ls=1&mt=8)
+### Now on the [App Store](https://itunes.apple.com/us/app/weigh-fit/id1078998317?ls=1&mt=8)
 
 A calorie balancing app that tracks how much one should eat down to the minute. 
 
