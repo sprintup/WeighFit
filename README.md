@@ -1,6 +1,5 @@
 # WeighFit 
 
-[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][downloads-url]
 ### Now on the [App Store](https://itunes.apple.com/us/app/weigh-fit/id1078998317?ls=1&mt=8)
 
 A calorie balancing app that tracks how much one should eat down to the minute. 
@@ -40,3 +39,5 @@ The user can grant access to other apps to interact with data that was created i
 The only information transmitted from the app is general analytical information as feedback for user interaction. No personal recognizable information is transmitted. 
 
 
+[downloads-image]: https://img.shields.io/npm/dm/webpack.svg
+[downloads-url]: http://badge.fury.io/js/webpack
